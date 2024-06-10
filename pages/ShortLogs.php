@@ -122,7 +122,7 @@ if (function_exists('yaml_parse')) {
 <?php
 date_default_timezone_set("UTC"); // set the time zone to UTC bc thats what dvmhost is
 $cDate = date("Y-m-d");
-exec("tail /var/log/centrunk/" . "DVM-VC1-" . $cDate . ".log", $short_logs);
+exec("tail /var/log/dvmhost/" . "DVM-VC1-" . $cDate . ".log", $short_logs);
 
   foreach($short_logs as $short_logs) {
 
