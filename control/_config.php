@@ -16,7 +16,7 @@
         $showIdAlias = 'false';
         $showTgAlias = 'false';
         $defaultTimeZone = 'true';
-        $customTimeZone = "America/Denver;
+        $customTimeZone = "America/Denver";
         $fontsize = '28px';
         
 ?>
